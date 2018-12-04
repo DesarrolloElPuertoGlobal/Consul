@@ -1,0 +1,7 @@
+# Fix temporal error https://github.com/consul/consul/issues/3078
+es:
+  date:
+    order:
+    - :year
+    - :month
+    - :day
